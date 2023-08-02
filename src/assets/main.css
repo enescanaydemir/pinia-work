@@ -2,32 +2,74 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0px;
-  }
-  body * {
+}
+
+body * {
     font-family: 'Roboto', sans-serif;
-  }
-  
-  /* header */
-  header {
+}
+
+/* header */
+header {
     background-color: #333;
     padding: 15px 0;
     display: flex;
     justify-content: center;
-  }
-  header .container{
+}
+
+header .container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  header img {
+}
+
+header img {
     max-width: 50px;
     transform: rotate(-10deg);
-  }
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     font-size: 2em;
     padding-top: 25px;
     margin-left: 15px;
     color: #ccc;
     transform: rotate(2deg);
-  }
+}
+
+
+/*box*/
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .container {
+    max-width: 720px;
+    width: 100%;
+}
+
+main p {
+    text-align: left;
+}
+
+main small {
+    color: #bbb;
+}
+
+.box {
+    position: relative;
+    background-color: #fff;
+    margin-top: 15px;
+    border: 1px solid #e2e2e2;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px #ccc;
+}
+
+.box i {
+    margin-left: 5px;
+    color: #bbb;
+}
