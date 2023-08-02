@@ -73,3 +73,20 @@ main small {
     margin-left: 5px;
     color: #bbb;
 }
+
+/*filter buttons*/
+.data-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 15px
+}
+
+.data-area button {
+    height: 35px;
+    margin-left: 5px;
+    padding: 0 15px;
+    border: 1px solid #e2e2e2;
+    background-color: #ddd;
+}
