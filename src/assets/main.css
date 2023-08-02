@@ -1,0 +1,33 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+  }
+  body * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* header */
+  header {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header img {
+    max-width: 50px;
+    transform: rotate(-10deg);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    padding-top: 25px;
+    margin-left: 15px;
+    color: #ccc;
+    transform: rotate(2deg);
+  }
